@@ -11,6 +11,13 @@
 # 
 # def object.complexity(3Dfile) --Will give a general impression of the complexity of the geometry
 #   bregman divergence for the distance?
+#   must account for curvature
+#   xyz distances over different segments will also be important
+#   should report:
+#                   Mean variance in geometry across the model
+#                   Complexity in a value between 0 and 100
+#                   How many vertexes add geometry less than n
+#                   Heatmap of where the "important" geometry is placed
 
 # def vertex.variance(3Dfile) --Will calculate the variance in vertices
 #   for vertex in 3Dfile

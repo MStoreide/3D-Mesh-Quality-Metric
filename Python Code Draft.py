@@ -34,8 +34,10 @@
 # plt.plot(z.vertex.values)
 
 # def polygon.variance(3Dfile) --Will calculate the size variance in polygons
-#   for ????
-#       ?? 
-# poly.sizes = Array(poly size range)
+#   for polygon in 3Dfile --May need to 'calculate this
+#       poly.array[i] = poly.size(i+1) --Get the polysize for each poly in array
+#       if [i] > max.poly.size
+#           set max.poly.size to i --Do the same with min
+#       mean.poly.size = sum(poly.array) / i in poly.array -- Sum all values divided by the index sum gets mean
 # print("Min poly size: ", min.poly.size, \n"Max poly size: ", max.poly.size, \n"Mean poly size: ", mean.poly.size)
 # plt.plot(poly.sizes)

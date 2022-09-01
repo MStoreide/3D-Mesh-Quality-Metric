@@ -41,3 +41,8 @@
 #       mean.poly.size = sum(poly.array) / i in poly.array -- Sum all values divided by the index sum gets mean
 # print("Min poly size: ", min.poly.size, \n"Max poly size: ", max.poly.size, \n"Mean poly size: ", mean.poly.size)
 # plt.plot(poly.sizes)
+
+# def size.resolution(3Dfile)
+#   something to tell about the relationship between polysize and object dimensions
+#   connect to polygon.variance function
+#   report something about polysize and where the complex geometry. Is the polygons enought to create the geo?

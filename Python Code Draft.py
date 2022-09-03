@@ -46,3 +46,8 @@
 #   something to tell about the relationship between polysize and object dimensions
 #   connect to polygon.variance function
 #   report something about polysize and where the complex geometry. Is the polygons enought to create the geo?
+
+
+# Tell something more as well?
+# Implement in 3D viewers? 3DHOP, Open3D, FRAMES, Yale, PoTree?
+# Evaluate meshes through different simplification algorithms. Edge collapse, quadric error metric. My own?

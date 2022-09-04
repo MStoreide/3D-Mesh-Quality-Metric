@@ -51,3 +51,4 @@
 # Tell something more as well?
 # Implement in 3D viewers? 3DHOP, Open3D, FRAMES, Yale, PoTree?
 # Evaluate meshes through different simplification algorithms. Edge collapse, quadric error metric. My own?
+# Check Blender Sourcecode and see what can be "extracted"

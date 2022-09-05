@@ -52,3 +52,8 @@
 # Implement in 3D viewers? 3DHOP, Open3D, FRAMES, Yale, PoTree?
 # Evaluate meshes through different simplification algorithms. Edge collapse, quadric error metric. My own?
 # Check Blender Sourcecode and see what can be "extracted"
+
+# Should include color texture check.
+# Either UV or vertex based.
+# For UV, check island size, edges, seam-lengths, and amount of seams.
+# Also check for spatial differences in the texture projection, this wwould be very useful!

@@ -57,3 +57,5 @@
 # Either UV or vertex based.
 # For UV, check island size, edges, seam-lengths, and amount of seams.
 # Also check for spatial differences in the texture projection, this wwould be very useful!
+
+# Remember all algorithms used must be "citable"

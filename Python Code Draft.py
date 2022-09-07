@@ -59,3 +59,5 @@
 # Also check for spatial differences in the texture projection, this wwould be very useful!
 
 # Remember all algorithms used must be "citable"
+
+# Add maximum x y and z variance across the model. This will tell how flat or not it is 

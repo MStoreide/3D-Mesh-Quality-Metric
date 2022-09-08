@@ -60,4 +60,7 @@
 
 # Remember all algorithms used must be "citable"
 
-# Add maximum x y and z variance across the model. This will tell how flat or not it is 
+# Add maximum x y and z variance across the model. This will tell how flat or not it is
+
+# What is the metric supposed to give value to? Mesh quality?
+#                                               Vertex distribution based on geometry?

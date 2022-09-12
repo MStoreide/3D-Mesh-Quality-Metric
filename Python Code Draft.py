@@ -62,5 +62,6 @@
 
 # Add maximum x y and z variance across the model. This will tell how flat or not it is
 
-# What is the metric supposed to give value to? Mesh quality?
+# What is the metric supposed to give value to? Mesh quality? TO "REMOVE" THE BLACKBOX OF THE 3D SCANNER AND SOFTWARE
 #                                               Vertex distribution based on geometry?
+#                                               Informaton related to meta and paradata.

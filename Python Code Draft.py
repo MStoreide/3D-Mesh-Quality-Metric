@@ -2,18 +2,34 @@
 # This script will function as a metric for the quality of 3D objects, with the application being cultural heritage.
 # It will provide various information about the 3D model, incuding general, vertex info, and polygon info. 
 # It calculates the geometric complexity of the object, and gives feedback on how many polygons are required and used.
+# Introduction of color quality and other characteristics will also be a feature
+
+# Features
+#   - General information about the 3D file and 3D object
+#       - Filename, Objectname, Dimensions (other metadata)
+#       - Datasize, Data Format
+#       - Amount of Vertices, Amount of Polygons, Texture Maps (Yes/No) 
+#   - Statistics about the complexity and features of the object geometry
+#       - Complexity in terms of object variation, vertex clustering, organic curves, etc. (E.g A hipoly cube is not complex, neither is a hipoly sphere. But a sphere with "noise" is complex, as it does not follow any easy parametric curves)
+#   - Information
 
 # import pymesh as pym
 # import numpy as np 
 # import pyplot as plt
 
+##################### GENERAL INFORMATION ##################### 
+
 # mesh = pym.load_mesh(3Dfile) -- Must be a mesh. Prints general info about the mesh
 # print("Filename", \n"ObjectName", \n"Dimensions") --Dimensions must be taken from some metadata.
-# 
+ 
 # print("Fileinfo: ", \n"Vertices: ", vertex.amount, \n"Polygons: ", poly.amount)
-# 
+
+
+##################### OBJECT COMPLEXITY ##################### 
+ 
 # def object.complexity(3Dfile) --Will give a general impression of the complexity of the geometry
 #   bregman divergence for the distance?
+#   Hausdorff Distance, Euclidian Distance (Should be used later)
 #   must account for curvature
 #   boolean approach?
 #   xyz distances over different segments will also be important
@@ -66,3 +82,7 @@
 #                                               Vertex distribution based on geometry?
 
 # Also check Meshlab to see what they have, and see what you can contribute. 
+
+##################### UV MAPS AND PROJECTION ##################### 
+
+##################### COLOR QUALITY ##################### 

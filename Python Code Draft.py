@@ -1,4 +1,4 @@
-#Rambling pseudocode for the metric
+# Rambling pseudocode for the metric
 # This script will function as a metric for the quality of 3D objects, with the application being cultural heritage.
 # It will provide various information about the 3D model, incuding general, vertex info, and polygon info. 
 # It calculates the geometric complexity of the object, and gives feedback on how many polygons are required and used.
@@ -64,3 +64,5 @@
 
 # What is the metric supposed to give value to? Mesh quality?
 #                                               Vertex distribution based on geometry?
+
+# Also check Meshlab to see what they have, and see what you can contribute. 

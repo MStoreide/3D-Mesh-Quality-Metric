@@ -3,9 +3,11 @@
 # It will provide various information about the 3D model, incuding general, vertex info, and polygon info. 
 # It calculates the geometric complexity of the object, and gives feedback on how many polygons are required and used.
 # Introduction of color quality and other characteristics will also be a feature
+# What file formats will it support? PyMesh supports .obj, .ply, .off, .stl, .mesh, .node, .poly and .msh.
 
 # ##################### NOVELTY ##################### 
 # The main novelty is the object complexity feature, but it is also a suggestion for a novelty tool as a whole. Needs to be easy to implement. Server based?
+# Metric should have a name, not just "Quality Metric"
 
 # Features
 #   - General information about the 3D file and 3D object
@@ -24,6 +26,7 @@
 ##################### GENERAL INFORMATION ##################### 
 
 # mesh = pym.load_mesh(3Dfile) -- Must be a mesh. Prints general info about the mesh
+# if load error print("Please select a 3D mesh format (obj, fbx, 3DS, etc)
 # print("Filename", \n"ObjectName", \n"Dimensions") --Dimensions must be taken from some metadata.
  
 # print("Fileinfo: ", \n"Vertices: ", vertex.amount, \n"Polygons: ", poly.amount)

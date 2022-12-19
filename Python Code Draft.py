@@ -3,11 +3,12 @@
 # It will provide various information about the 3D model, incuding general, vertex info, and polygon info. 
 # It calculates the geometric complexity of the object, and gives feedback on how many polygons are required and used.
 # Introduction of color quality and other characteristics will also be a feature
-# What file formats will it support? PyMesh supports .obj, .ply, .off, .stl, .mesh, .node, .poly and .msh.
+# What file formats will it support? PyMesh supports .obj, .ply, .off, .stl, .mesh, .node, .poly and .msh. (What is missing? .fbx, .xyz)
 
 # ##################### NOVELTY ##################### 
 # The main novelty is the object complexity feature, but it is also a suggestion for a novelty tool as a whole. Needs to be easy to implement. Server based?
 # Metric should have a name, not just "Quality Metric"
+# CulturalHeritageAanalysisaNdClassEvaluation - CHASE
 
 # Features
 #   - General information about the 3D file and 3D object
@@ -25,8 +26,8 @@
 
 ##################### GENERAL INFORMATION ##################### 
 
-# mesh = pym.load_mesh(3Dfile) -- Must be a mesh. Prints general info about the mesh
-# if load error print("Please select a 3D mesh format (obj, fbx, 3DS, etc)
+# mesh = pym.load_mesh(3Dfile) -- Must be a mesh. Prints general info about the mesh. How is this info stored in metadata. 
+# if load error print("(format) not accepted. Please select a valid 3D mesh format (obj, fbx, 3DS, etc)")
 # print("Filename", \n"ObjectName", \n"Dimensions") --Dimensions must be taken from some metadata.
  
 # print("Fileinfo: ", \n"Vertices: ", vertex.amount, \n"Polygons: ", poly.amount)
@@ -46,6 +47,7 @@
 #                   How many vertexes add geometry less than n
 #                   Heatmap of where the "important" geometry is placed
 #                   What accuracy the model is on based on the dimensions and polygon size
+#                   Size variation from smallest to largest polygon. (Less is better?)
 
 # def vertex.variance(3Dfile) --Will calculate the variance in vertices
 #   for n.vertex in 3Dfile
@@ -100,6 +102,7 @@
 # def uv.island.size(3Dfile)
 #   Get texture file resolution
 # Report wasted space in the UV snapshot (Percentage)
+# Texel sizes (Where is the UV space being used?)
 
 ##################### COLOR QUALITY ##################### 
 

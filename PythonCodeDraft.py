@@ -118,3 +118,10 @@
 
 # A = pymesh.load_mesh(Mesh.obj) #This is normally done sooner, but if not: check for it.
 # B = simplify.mesh(A) # Duplicates and simplifies the mesh. Should be able to have user input to select at which stage.  
+
+
+import pymesh as pym
+import numpy as np
+import pyplot as plt
+
+mesh = pym.load_mesh("C.obj")

@@ -99,11 +99,13 @@
 
 # def uv.island.size(3Dfile)
 #   Get texture file resolution
-# Report wasted space in the UV snapshot
+# Report wasted space in the UV snapshot (Percentage)
 
 ##################### COLOR QUALITY ##################### 
 
 # What color space are we in?
+# What is the gamut used in the color textures. Report this compared to a normal sRGB gamut. 
+
 
 ##################### COMPARISON BETWEEN TWO OBJECTS ##################### 
 

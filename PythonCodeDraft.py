@@ -122,6 +122,5 @@
 
 import pymesh as pym
 import numpy as np
-import pyplot as plt
 
 mesh = pym.load_mesh("C.obj")

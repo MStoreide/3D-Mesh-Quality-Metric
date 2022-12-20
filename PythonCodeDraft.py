@@ -32,6 +32,7 @@
  
 # print("Fileinfo: ", \n"Vertices: ", vertex.amount, \n"Polygons: ", poly.amount)
 
+# Check for errors here: Non-manifold geometry, etc. 
 
 ##################### OBJECT COMPLEXITY ##################### 
  
@@ -104,6 +105,8 @@
 # Report wasted space in the UV snapshot (Percentage)
 # Texel sizes (Where is the UV space being used?)
 
+# Error in UV projection following msh simplification
+
 ##################### COLOR QUALITY ##################### 
 
 # What color space are we in?
@@ -116,11 +119,5 @@
 # Introduce selection of simplification algorithms
 # Give Hausdorff (can take from Metro) and Euclidian distance. Give heatmap and data
 
-# A = pymesh.load_mesh(Mesh.obj) #This is normally done sooner, but if not: check for it.
-# B = simplify.mesh(A) # Duplicates and simplifies the mesh. Should be able to have user input to select at which stage.  
-
-
-import pymesh as pym
-import numpy as np
-
-mesh = pym.load_mesh("C.obj")
+# MeshA = pymesh.load_mesh(Mesh.obj) #This is normally done sooner, but if not: check for it.
+# MeshB = simplify.mesh(MeshA) # Duplicates and simplifies the mesh. Should be able to have user input to select at which stage.  
